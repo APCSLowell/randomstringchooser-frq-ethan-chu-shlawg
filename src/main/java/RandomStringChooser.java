@@ -7,7 +7,7 @@ public class RandomStringChooser
   }
   public String getNext(){
     int randNum = (int)(Math.random()*arr.length);
-    String randWord = arr{randNum];
+    String randWord = arr[randNum];
     arr[randNum] = null;
     int count = 0;
     for(int i = 0; i < arr.length; i++){
