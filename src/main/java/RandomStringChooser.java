@@ -4,7 +4,7 @@ public class RandomStringChooser
   private ArrayList<String> arr;
   public RandomStringChooser(String [] words){
     arr = new ArrayList<String>();
-    for(int i = 0; i < arr.length; i++){
+    for(int i = 0; i < arr.size(); i++){
       arr.add(i) = words[i];
     }
   }
