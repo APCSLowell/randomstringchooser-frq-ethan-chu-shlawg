@@ -4,9 +4,7 @@ public class RandomLetterChooser extends RandomStringChooser
 	private 
 	public RandomLetterChooser(String str)
 	{ 
-		letters = getSinglerLetters(str);
-		if(letters.length 
-		
+		super(getSingleLetters(str));
 	}
 	
 	
